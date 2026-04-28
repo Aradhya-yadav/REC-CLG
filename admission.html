@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RECK -K College</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="index.css">
+  
+  <style>
+    .info-section {
+      background-color: #b4b2b2;
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .info-box h3 {
+      color: #003366;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .info-box ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .info-box ul li {
+      margin: 5px 0;
+    }
+
+    .info-box a {
+      text-decoration: none;
+      color: #333;
+      transition: 0.3s;
+    }
+
+    .info-box a:hover {
+      color: #0073e6;
+    }
+
+    /* Admission Section */
+    .campus {
+      text-align: center;
+      padding: 40px;
+    }
+
+    .campus h1 {
+      color: #002147;
+      font-size: 35px;
+      margin-bottom: 25px;
+    }
+
+    .admission-details {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #f4f4f4;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .admission-details h2 {
+      color: #002147;
+      margin-bottom: 10px;
+    }
+
+    .admission-details p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .admission-details ul {
+      margin-left: 20px;
+      color: #333;
+    }
+
+    .apply-btn {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #002147;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 6px;
+      font-size: 16px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .apply-btn:hover {
+      background-color: #0073e6;
+    }
+
+    .campus img {
+      width: 250px;
+      height: 180px;
+      margin: 15px;
+      border-radius: 10px;
+      transition: transform 0.3s;
+      object-fit: cover;
+    }
+
+    .campus img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Top Section -->
+  <div class="top">
+    <div class="content">
+      <div class="left">
+        <img src="./Asets/download.jpg" width="100" height="100" alt="College Logo">
+        <div class="text">
+          <h1>Rajkiya Engineering College, Kannauj</h1>
+          <h2>राजकीय इंजीनियरिंग कॉलेज, कन्नौज</h2>
+          <p>Top Government Engineering College in UP, AICTE approved & Affiliated to Dr. APJ Abdul Kalam University Lucknow</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <div class="header" id="home">
+    <nav>
+      <div class="logo-title">
+        <img src="./Asets/download.jpg" alt="">
+        <h1>RECK-K</h1>
+      </div>
+       <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+      <div class="nav-links">
+        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="about.html"><i class="fa-solid fa-user"></i> About</a>
+        <a href="academics.html"><i class="fa-solid fa-book"></i> Academics</a>
+        <a href="admission.html" class="active"><i class="fa-solid fa-user-graduate"></i> Admission</a>
+        <a href="department.html"><i class="fa-solid fa-building-columns"></i> Department</a>
+        <a href="gallery.html"><i class="fa-solid fa-image"></i> Gallery</a>
+        <a href="student-activity.html"><i class="fa-solid fa-people-group"></i> Student Activities</a>
+        <a href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Admission Section -->
+  <div class="main">
+    <div class="campus">
+      <h1>ADMISSION</h1>
+
+      <div class="admission-details">
+        <h2>Admission Process (JEECUP / JEE Main)</h2>
+        <p>Admission to Rajkiya Engineering College, Kannauj is conducted through <strong>JEE Main</strong> and <strong>JEECUP</strong> counseling. 
+        The process is managed by <strong>Dr. A.P.J. Abdul Kalam Technical University (AKTU)</strong>, Lucknow.</p>
+
+        <ul>
+          <li>Students must appear for JEE Main or JEECUP examination.</li>
+          <li>Participate in the online counseling process on the AKTU portal.</li>
+          <li>Select <strong>RECK Kannauj</strong> as your preferred choice during counseling.</li>
+          <li>Seats are allotted based on merit and category.</li>
+        </ul>
+
+        <a href="https://aktu.ac.in" class="apply-btn" target="_blank">
+          <i class="fa-solid fa-arrow-right-to-bracket"></i> Apply Now
+        </a>
+      </div>
+
+      <img src="./Asets/download (1).jpg" alt="">
+      <img src="./Asets/download (2).jpg" alt="">
+      <img src="./Asets/download (3).jpg" alt="">
+      <img src="./Asets/download (4).jpg" alt="">
+    </div>
+  </div>
+
+  <!-- College Info Section (Above Footer) -->
+  <section class="info-section">
+    <div class="info-box">
+      <h3>College</h3>
+      <ul>
+        <li><a href="#">About College</a></li>
+        <li><a href="#">Admission</a></li>
+        <li><a href="#">Features & Facilities</a></li>
+        <li><a href="#">Scholarship</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="info-box">
+      <h3>College Committee</h3>
+      <ul>
+        <li><a href="#">Anti Ragging Committee</a></li>
+        <li><a href="#">Internal Complaints Committee</a></li>
+        <li><a href="#">Anti Ragging Satarkta Committee</a></li>
+        <li><a href="#">Anti Ragging Squad</a></li>
+        <li><a href="#">Women Cell</a></li>
+        <li><a href="#">Cell for Students from J&K</a></li>
+      </ul>
+    </div>
+
+    <div class="info-box">
+      <h3>Policies</h3>
+      <ul>
+        <li><a href="#">Disclaimer</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Hyperlinking Policy</a></li>
+        <li><a href="#">Copyright Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="info-box">
+      <h3>Important Links</h3>
+      <ul>
+        <li><a href="#">Dr. A.P.J. Abdul Kalam Technical University</a></li>
+        <li><a href="#">AKTU Holiday List</a></li>
+        <li><a href="#">AKTU Circular</a></li>
+        <li><a href="#">AKTU ERP</a></li>
+        <li><a href="#">AICTE</a></li>
+        <li><a href="#">NPTEL</a></li>
+      </ul>
+    </div>
+
+    <div class="info-box">
+      <h3>Contact Info</h3>
+      <p><strong>Rajkiya Engineering College Kannauj</strong></p>
+      <p>Aher, Tirwa Road, Kannauj, Uttar Pradesh – 209732</p>
+      <p>Phone: 01345-221301</p>
+      <p>Email: admissions@reck.ac.in</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="para">
+        <p>© 2025 Aradhya Yadav</p>
+      </div>
+      <div class="last">
+        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://web.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
